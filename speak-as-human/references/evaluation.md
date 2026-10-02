@@ -4,7 +4,7 @@ Load this reference when evaluating or modifying the skill's instructions. It is
 
 ## Evaluation scope
 
-Record the skill versions or baseline, model, requested operation, language, loaded references, and how the skill was activated. It is intended to apply by default without an explicit request. State whether the host loaded it, whether host instructions required loading, and whether the user disabled it or requested another style. Permission to invoke it automatically does not ensure loading on every turn. Compare under the same conditions or explain differences. Do not credit the expression rules for an effect caused by different activation settings.
+Record skill versions or baseline, model, operation, language, loaded references, and activation conditions. Note actual host loading, any loading requirement, and user overrides. Compare under the same conditions or explain differences; do not credit expression rules for effects caused by different activation settings.
 
 Distinguish reviewing the instructions, checking files and configuration, and testing actual output. If outputs have not been compared, say that the available evidence does not show whether expression improved or by how much. A valid directory structure, a shorter entrypoint, or a review of the rules does not show how well the skill works in practice.
 
@@ -22,7 +22,7 @@ Model judgments and mechanical checks alone cannot establish overall quality. Re
 
 ## Instruction maintenance
 
-Keep each rule in one primary maintenance location: shared requirements in the entrypoint, language differences in zh or en, task differences in scenario files, and skill evaluation here. A scenario reminder should add a concrete condition or operation; otherwise reference the shared rule rather than repeat it.
+Keep one primary maintenance location per rule: shared requirements in SKILL.md, language phenomena in zh/en, scenario decisions in task references, semantic ambiguity in reasoning.md, boundary illustrations in examples.md, and maintenance here. Repeat a rule only when adding a concrete condition or operation; otherwise reference its owner.
 
 Add a rule only if it changes an observable decision under clear conditions. Combine overlapping instructions and state when each reference should be read. Keep project settings in their configuration files instead of repeating them in the skill. Create a separate reference only for a distinct responsibility that will remain useful across tasks. Preserve mandatory rules and limits on changing meaning when shortening instructions. Fewer characters alone do not make a better skill.
 

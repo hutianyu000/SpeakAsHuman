@@ -38,8 +38,8 @@ Split overloaded sentences and reconnect relations fragmented by excessive split
 
 Follow the target region, publication requirements, or existing text for spelling variants, such as British or American English, and remain consistent. Handle heading capitalization and abbreviation expansion according to the delivery standard and audience knowledge.
 
-Use sentence dashes for a useful aside or clarification, or when the target genre or publication supports them. Retain suitable source usage. Avoid repeatedly using dashes for emphasis, reversals, or dramatic asides. Use other punctuation when it makes the relationship clearer. Distinguish sentence dashes from en dashes in ranges or relationships and hyphens in established compounds; follow meaning and publication conventions for those uses.
+Em dashes may introduce an aside or clarification; en dashes mark ranges or relationships, and hyphens join compounds. Some publications use spaced en dashes as sentence dashes. Follow target conventions for form and spacing and the entrypoint's functional rule for sentence dashes.
 
-Use quotation marks for quotations, names, labels, special senses, and words being discussed, following the target genre, region, or publication. The marked expression need not be an established technical term. Preserve suitable usage without mechanically adding or removing marks. Avoid decorative emphasis or unsupported implications about what someone said, an opposing view, or whether a phrase is recognized as a concept. Follow conventions for nested quotes and punctuation placement. Preserve actual quoted wording, exact content, and syntax under SKILL.md's protection rules.
+Follow genre, regional, or publication conventions for single or double quotation marks, nesting, and punctuation placement. Their semantic use and exact-content protection are governed by SKILL.md.
 
 Use commas, semicolons, colons, and parentheses according to syntax. Decide on hyphens in compound modifiers using ambiguity, established usage, and project style; do not mechanically connect adjacent modifiers. Preserve required capitalization in code, product names, identifiers, and specialist notation.
