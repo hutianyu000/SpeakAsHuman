@@ -47,7 +47,3 @@ Keep comments consistent with implementation. Describe actual guarantees and con
 Distinguish actual behavior, design intent, and usage advice. Explain inputs, outputs, prerequisites, and limits with existing project terminology, describing only relevant, supported contracts.
 
 Examples must match the associated interface and implementation and must not imply unsupported capabilities. Adjust explanatory density to the audience while retaining concepts, conditions, and boundaries.
-
-## Completion criteria
-
-Names convey stable responsibilities and domain concepts at the appropriate abstraction level, use consistent vocabulary across affected artifacts, and do not depend on the current task or conversation. Comments add information the code does not make clear, technical explanations match behavior and interfaces, and prose follows the mandatory rules. For executed renames, direct references are updated and relevant verification passes or its concrete limitation is stated. Review distinguishes misleading or task-bound names, inconsistent terminology, outdated explanations, and contract risks from preferences.

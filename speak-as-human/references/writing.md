@@ -4,8 +4,6 @@
 
 Identify the purpose, audience, genre, and requested operation. Language polishing covers wording, grammar, local word order, and transitions. Content restructuring changes paragraph order, argument structure, selection of material, or arrangement of claims. Permission to polish does not automatically authorize restructuring or changes of position.
 
-Generate from the supplied material or authorized creative brief, revise only where changes serve a purpose, and review through findings and directions. When additional evidence, reassessment of material, or broader editing is needed, perform only the work supported by the material and authorization, and identify unresolved gaps. Use the entrypoint's correction and fiction boundaries.
-
 Use explicit style requirements, relevant writing samples, and stable habits in the source to establish the author's voice. Prefer available samples from the same document type, intended audience, publication venue, team, or repository when calibrating register, terminology, detail, and format. Assess which features fit the present purpose instead of transplanting the distinctive voice of an unrelated sample. Preserve supported stance, formality, terminology, cadence, and meaningful irregularities. Voice affects expression within the entrypoint's mandatory rules; it does not permit prohibited punctuation or habits, invented experience, or unsupported claims. Without a sample, infer only what the source and genre support rather than installing a stock personality. Calibration does not require external research or a fixed number of samples for every task.
 
 For scholarly text, preserve study conditions, comparison baselines, numerical and statistical meaning, and citation scope. Keep observations, assumptions, hypotheses, inferences, and proved results distinguishable. Limit review conclusions to the passages and supporting material actually examined; language polishing alone does not verify scientific correctness.
@@ -17,8 +15,6 @@ Distinguish the author's claims, quoted positions, and the narrator's analysis. 
 Write the finished artifact for its intended readers. Keep references to the editing input, revision process, and verification limitations in separate editorial notes unless the requested genre discusses source documents or the user requests inline annotations. Preserve the original evidentiary status when polishing; do not turn supplied assertions into externally sourced findings by adding attribution. A missing citation alone does not authorize deleting or changing the claim. Identify material source gaps separately, without inventing citations, methods, or authority or filling the artifact with generic source labels.
 
 In literature discussion, explain relevance and transferability through the studied objects, methods, findings, and limits. Keep editorial decisions about selecting, ranking, or allocating space to references in revision notes. Preserve substantive assessments of evidence quality and research relationships when they belong to the argument and have support.
-
-Introduce opposing views only when the task or argument needs them, and represent them on the basis of available material. Do not invent an opponent for rhetorical contrast or supply motives absent from the text.
 
 ## Reasoning and consistency
 
@@ -61,7 +57,3 @@ When word substitutions leave the same defect, rewrite the affected passage arou
 Enforce the entrypoint's mandatory prose rules before judging optional stylistic choices. Within those rules, check whether emphasis, degree modifiers, and rhetorical devices are justified and fit the genre. Retain compliant expression that serves explanation, emphasis, or artistic purpose. Adjust structure when it obstructs comprehension and modifiers when they mislead.
 
 Inspect clauses appended to facts for claimed significance, impact, or contribution. Retain them when they add needed information or a supported relationship. Remove empty significance statements; flag substantive claims whose support is unresolved within the editing scope. Do not replace a vague statement with invented details, sources, or mechanisms.
-
-## Completion criteria
-
-The purpose is clear, paragraphs serve actual functions, reasoning holds across sections, and the style is consistent with the supplied voice and mandatory rules. Factual claims remain supported; fiction stays within its creative brief and the entrypoint's boundaries. Compare revisions with the original for unintended additions, omissions, and changes in position, evidential strength, attribution, or scope. Check additions for necessity and replacements for actual benefit; do not keep an edit merely because it differs from the source. Order review findings by impact and distinguish confirmed content problems, evidence gaps, and style preferences.

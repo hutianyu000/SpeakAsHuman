@@ -61,9 +61,11 @@ The following habits are also prohibited in generated and revised prose:
 
 These prohibitions apply across sentences and paragraphs. Splitting, translating, or rephrasing a prohibited move does not make it acceptable. Apply them while drafting and during the final check.
 
+For context-dependent wording, identify the proposition it asserts, the basis for that proposition, and its function for the reader. Judge the asserted meaning rather than a familiar phrase pattern or grammatical subject alone. Preserve necessary contrast, supported emphasis, supplied reactions, and technical descriptions when they satisfy these conditions. A domain label alone does not establish an intention or motive. These judgments do not relax explicit prohibitions.
+
 ## Responsibilities and selective loading
 
-Read this entrypoint whenever the skill is used. Select references by the deliverable and the type of expression; do not load every reference by default.
+Read this entrypoint when the skill is first used in a conversation; reuse it unless the instructions change. Select references by the deliverable and the type of expression; do not load every reference by default.
 
 | File | Primary responsibility | Load when |
 | --- | --- | --- |
@@ -72,6 +74,8 @@ Read this entrypoint whenever the skill is used. Select references by the delive
 | [references/writing.md](references/writing.md) | Connected prose, argumentation, genre, and content-editing boundaries | Drafting, polishing, or reviewing an article or other connected text |
 | [references/communication.md](references/communication.md) | Responses, information order, and action explanations | Drafting, revising, or reviewing a conversational response or work message |
 | [references/code.md](references/code.md) | Stable domain naming and expression contracts in code and its documentation | Handling engineering expression |
+| [references/examples.md](references/examples.md) | Annotated repair and preservation examples in Chinese, English, and engineering expression | A rule boundary remains unclear after applying the relevant rules, or illustrative material is needed for skill evaluation; read only the relevant sections |
+| [references/evaluation.md](references/evaluation.md) | Skill evaluation and instruction maintenance | Evaluating or modifying this skill's instructions; not ordinary expression tasks or content review |
 
 For natural-language prose, comments, and technical explanations, load the corresponding language rules. For identifiers and filenames, load engineering rules first and follow programming-language syntax, tool restrictions, and project naming conventions. Consult only relevant language-file sections when meaning, collocation, or terminology needs judgment; do not apply prose syntax, paragraph rhythm, or punctuation rules to code names.
 
@@ -79,47 +83,20 @@ Select scenario files by the requested deliverable. Combine them only when the t
 
 Choose the interaction language, prose language, and identifier language separately. Process mixed-language content by expression unit. Do not translate English identifiers merely because the conversation is in Chinese. Translation uses the target-language rules while preserving the source's semantic constraints. The language of these instruction files does not determine the output language; follow the task and intended audience.
 
-## Four quality groups
-
-Address issues that affect meaning or conclusions before surface form. Fluency is not a substitute for correctness. Scenario files supply the concrete operations.
-
-| Group | Questions |
-| --- | --- |
-| Propositions and attribution | Are others' positions represented accurately? Is an irrelevant opposing position introduced? Are intentions assigned without support? |
-| Reasoning and consistency | Are conclusions supported? Are conditions and definitions consistent? Does the output deliver the explanation or argument it promises? |
-| Information and response | Does it answer the actual need? Does agreement compromise judgment? Do restatement, background, and summaries serve a necessary function? |
-| Wording and structure | Is the degree of emphasis justified? Do symmetry and rhetoric serve a purpose? Does the organization support reading and use? |
-
 ## Execution and delivery
 
-Internally: identify the object and goal, select applicable language rules and scenarios, identify substantive issues, generate or revise (or form findings for review), check semantics and task contracts, then deliver. For revisions, identify the defect before changing the passage; keep this assessment internal unless review findings are requested. Fix a paragraph around its actual point when local substitutions leave the same structural defect, within the authorized editing depth.
+Identify the goal and operation, load applicable references, and address proposition, attribution, and reasoning defects before surface form. Check that conclusions follow from their support, conditions and definitions remain consistent, and agreement does not override judgment. For revisions, identify the defect before changing the passage; keep this assessment internal unless review findings are requested. Fix a paragraph around its actual point when local substitutions leave the same structural defect, within the authorized editing depth.
 
 Complete simple tasks directly without narrating each step. Infer purpose, audience, and boundaries from available material when possible. Clarify only missing information that materially affects the result and cannot reasonably be inferred.
 
-| Operation | Main behavior | Default deliverable |
-| --- | --- | --- |
-| Generate | Organize expression from the supplied material, goals, and contracts, including an authorized creative brief | A usable finished artifact |
-| Revise | Identify concrete issues, make necessary changes, and recheck semantics and contracts | Revised content or files; explain key changes when useful |
-| Review | Explain issues, impact, and directions for improvement; distinguish confirmed problems from preferences | Findings ordered by importance; do not edit the original without authorization |
-
-Follow the requested output format. Locate review findings in specific passages or artifacts and state their basis; mark issues requiring confirmation. Do not require a fixed analysis transcript, before-and-after comparison, or summary.
+Follow the requested output format. Generation delivers a usable artifact from the supplied material or authorized creative brief; revision delivers revised content or files, explaining key changes when useful. Review delivers findings ordered by importance, located in specific passages or artifacts with their basis and any need for confirmation; it does not authorize editing the original. Do not require a fixed analysis transcript, before-and-after comparison, or summary.
 
 In review, distinguish mandatory expression violations, confirmed content or reasoning defects, unresolved evidence gaps, and optional style preferences. State the actual basis for each finding without requiring a fixed report structure. A mandatory punctuation violation warrants correction even when the passage is otherwise effective; it does not by itself establish a reasoning defect or AI authorship. Describe evidence unavailable for the requested assessment without treating its absence from the reviewed excerpt as proof that the source lacks it.
 
-Before delivery, check all editable prose for prohibited punctuation and expression habits, including moves spread across sentences or sections. Check quotation marks for a clear function and the required basis, and preserve those that meet the rules. Check each attribution for a clear referent and support for both the reported result and the claimed evidentiary activity. Correct remaining violations within scope. Compare the final content with the source and authorized changes for added or lost claims, altered conditions, attribution, degree of certainty, and damaged protected content. For names, check stable responsibility, domain vocabulary, abstraction level, and independence from the current request or edit history. In review mode, report violations in the material rather than silently changing it; the review itself must follow these rules.
+Before delivery, check all editable prose for prohibited punctuation and expression habits, including moves spread across sentences or sections. Check quotation marks for a clear function and the required basis, and each attribution for a clear referent and support for both the result and claimed evidentiary activity. Compare generated work with its materials or creative brief, revisions with the original and authorized changes, and review findings with their evidence. Check for added or lost claims, altered quantities, conditions, negation, attribution or certainty, contradictions, and damaged protected content or contracts. For engineering expression, also apply the checks in code.md. Correct remaining violations within scope; in review mode, report them rather than silently changing the material.
 
 Read the final artifact from the intended reader's perspective, using the knowledge reasonably expected of that audience, the artifact itself, and references explicitly available to them. Do not rely on private conversation history to supply missing meaning. Check whether entities, terms, pronouns, sources, conditions, and requested actions remain identifiable. For names and comments, consider a maintainer who did not see the task. Repair missing context within scope without inserting the conversation history. This is an internal perspective check; describe it as independent reader testing only if a separate reader actually assessed the artifact without that history.
 
-Evaluate the actual final artifact. An added passage must contribute needed information or repair a specific defect. A replacement must improve expression or satisfy a mandatory rule while preserving meaning. Leave compliant passages intact. Stop when the requested work and relevant checks are complete; revise again only for a remaining concrete defect, not to keep polishing.
+Apply the concrete-benefit requirement to edits that survive in the final artifact, including additions. Stop when the requested work and relevant checks are complete; revise again only for a remaining concrete defect, not to keep polishing.
 
 Describe only changes that survive in the final artifact and checks actually performed. A mechanical punctuation or reference check does not verify meaning, reasoning, or name quality. Do not claim complete resolution from a format check or a model-only assessment. Report material unresolved issues or unavailable required checks concisely when they affect delivery; no fixed verification report is required for ordinary tasks.
-
-## Acceptance and maintenance
-
-**Required:** no fabricated claims presented as real, no unauthorized semantic or contract changes, no new contradictions, compliance with mandatory prose and naming rules, and completion of the user's request. Check generated work against its materials or creative brief, revisions against the original and authorized changes, and review findings against their evidence.
-
-**Quality judgments:** clearer expression, necessary information, natural language, suitable style, and lower comprehension effort. Evaluate actual output quality, not a human-likeness score or detector result.
-
-When evaluating a skill revision, compare the candidate with the previous version or a baseline without the skill on the same inputs. Include defective expression, already suitable text that should remain intact, context-dependent choices, and material whose meaning or engineering contract must be protected. Assess useful repairs, unnecessary edits, lost quantities, conditions, negation, attribution or uncertainty, and fabricated additions. Judge style separately from mechanical compliance. Where practical, let evaluators assess the final artifacts without the proposed diagnosis or intended answer, and use blind comparisons to reduce preference for the candidate. Model-only judgments and mechanical checks do not certify overall quality. These are maintenance evaluation requirements, not a testing workflow for every writing task; they do not prescribe a framework, permanent test files, fixed scores, or additional agents.
-
-Keep each rule in one primary maintenance location: shared requirements here, language differences in zh or en, and task differences in scenario files. Add a rule only if it changes an observable decision under clear conditions. Consolidate overlapping instructions, keep reference-loading conditions explicit, and leave discoverable project configuration in its owning files. Split a new file only when a set of requirements becomes sufficiently independent and stable.
