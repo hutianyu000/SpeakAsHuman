@@ -4,7 +4,7 @@ Load this reference when evaluating or modifying the skill's instructions. It is
 
 ## Evaluation scope
 
-Record the skill versions or baseline, model, task operation, language, loaded references, and activation policy relevant to the comparison. State whether a personal or host instruction enables the skill for ordinary conversation beyond its default task triggers. Keep these conditions comparable or explain their differences; do not attribute an activation-policy effect to the expression rules alone. Default conversation activation remains a host or user preference rather than a required installation behavior.
+Record the skill versions or baseline, model, task operation, language, loaded references, and actual activation behavior relevant to the comparison. The skill is intended to apply by default without explicit invocation; state whether the host actually loaded it, whether host instructions ensured loading, and whether the user disabled or overrode it. Implicit invocation permission alone does not establish that the host loads the skill every turn. Keep these conditions comparable or explain differences; do not attribute an activation-policy effect to the expression rules alone.
 
 Distinguish inspection of instruction design, mechanical validation, and observed output behavior. If outputs have not been compared, state that the available evidence cannot establish an improvement in expression quality or its magnitude. A valid directory structure, a shorter entrypoint, or an evaluator's reading of the rules does not establish behavioral effectiveness.
 
@@ -16,7 +16,7 @@ The annotated [examples](examples.md) clarify intended boundaries; they are not 
 
 Assess useful repairs, unnecessary edits, lost quantities, conditions, negation, attribution or uncertainty, and fabricated additions. Evaluate actual final artifacts. Where practical, let evaluators see them without the proposed diagnosis or intended answer, and use blind comparisons to reduce preference for the candidate. Independent reader testing requires a separate reader who did not receive the original conversation or the intended verdict.
 
-Judge mandatory compliance separately from clarity, necessary information, naturalness, suitable style, and comprehension effort. Correcting punctuation satisfies an output constraint; it does not by itself establish a more natural expression, defective reasoning, or AI authorship. Assess how a required recast affects meaning, readability, and author voice within the mandatory rules. Do not use a human-likeness score or detector result as the quality verdict.
+Judge mandatory compliance separately from clarity, necessary information, naturalness, suitable style, and comprehension effort. Correcting a prohibited Chinese sentence dash satisfies an output constraint; English sentence dashes and quotation marks are assessed by function, meaning, and target conventions. Removing permitted punctuation is not inherently an improvement. Assess the effect on meaning, readability, and author voice. Punctuation alone does not establish defective reasoning or AI authorship. Do not use a human-likeness score or detector result as the quality verdict.
 
 Model-only judgments and mechanical checks do not certify overall quality. Report observed outcomes and limits without converting a small comparison into a universal claim. These requirements do not prescribe a framework, permanent test files, fixed scores, a fixed sample count, or additional agents.
 

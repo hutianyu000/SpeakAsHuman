@@ -94,17 +94,17 @@ Possible revision:
 
 Condition: prompt length is neither an expressed claim nor a relevant alternative established in the surrounding discussion. If the task actually asks whether length explains the problem, the negative statement may be needed and should be assessed against the evidence. The example does not ban discussing instruction length or remove a real rebuttal.
 
-## Sentence dashes
+## Sentence dashes by language
 
 The following input reproduces the punctuation being examined exactly:
 
 > The new policy — announced without warning — affects thousands of workers.
 
-Revision:
+Possible revision when commas suit the target style and reading function:
 
 > The new policy, announced without warning, affects thousands of workers.
 
-Condition: recast the sentence dashes under the mandatory rule while preserving the announcement qualification and the quantity. Do not infer whether the policy claim is factually correct from this punctuation edit. The exact input is review material; the revision and other generated deliverables follow the dash prohibition.
+Condition: the English input may also be retained when its informative aside and punctuation suit the intended genre or publication. The comma version is an alternative, not a universally required correction. Preserve the announcement qualification and the quantity in either version; neither punctuation choice verifies the policy claim. Repeated dramatic interruptions without a reading function call for revision. Chinese prose follows the sentence-dash prohibition; an English clause in mixed-language material follows English rules. Required exact reproductions remain protected.
 
 ## Functional quotation marks
 
@@ -122,7 +122,7 @@ Term-marking fragment:
 
 > “双碳”
 
-Condition: when the context uses this established abbreviation for 碳达峰 and 碳中和, the quotation marks can distinguish the abbreviation as a name. Retain them when that marking serves the reader and follows the publication conventions. The unquoted form can also be suitable where the meaning is already clear; neither adding nor deleting quotation marks is mandatory at every occurrence. This permission does not extend to packaging an incidental description as a newly named concept.
+Condition: when the context uses this abbreviation for 碳达峰 and 碳中和, the quotation marks can distinguish it as a name. Retain them when that marking serves the reader and follows publication conventions. The unquoted form can also be suitable where the meaning is clear; neither adding nor deleting quotation marks is mandatory at every occurrence. Other marked labels or special senses need not be established technical terms, but their meaning must be clear in context. Marking wording does not establish that it is a recognized concept or that someone actually said it.
 
 ## Observable behavior and unsupported intention
 
