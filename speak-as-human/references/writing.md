@@ -10,7 +10,7 @@ For scholarly text, preserve study conditions, comparison baselines, numerical a
 
 ## Propositions and attribution
 
-In argumentative text, distinguish the author's conclusions from positions quoted or examined. A position under discussion is not necessarily accepted by the author. Consult reasoning.md when its attribution or evidentiary status is unclear.
+Distinguish the author's conclusions from positions merely quoted or examined. Consult reasoning.md when attribution or evidentiary status is unclear.
 
 Write for the intended readers. Put comments about editing inputs, the revision process, and verification limits in separate editorial notes, unless the genre discusses source documents or the user requests inline annotations. A missing citation alone does not authorize changing or deleting a claim; report important source gaps separately.
 
