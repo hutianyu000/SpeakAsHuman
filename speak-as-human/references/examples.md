@@ -1,6 +1,6 @@
 # Examples
 
-Read only the sections relevant to an unresolved rule boundary. Each example illustrates a local decision under stated conditions, not a mandatory answer template or a new blacklist. Quoted inputs are material under review, including any defects; their factual claims are not independently verified by these expression examples. Revisions must not add facts or transfer claims into the user's current task.
+Read the sections needed to resolve a question about a rule. Each example shows a decision under stated conditions; it is not an answer to copy or a new blacklist. The quoted inputs may contain defects, and their factual claims have not been independently verified here. Do not add facts when revising or carry an example's claims into the user's task.
 
 Preserve quantities, conditions, uncertainty, attribution, and protected content. Apply a suggested revision only when its stated conditions hold. If the input does not support a substantive replacement, identify the gap instead of inventing a better-sounding answer.
 
@@ -32,7 +32,7 @@ Possible revision:
 
 > Gallery 825 is LAAA's exhibition space for contemporary art. The gallery has four distinct spaces and covers over 3,000 square feet.
 
-Condition: the passage states membership and physical features; the more elaborate verbs add no separate responsibility or evaluative meaning. Preserve four distinct spaces and the lower bound of over 3,000 square feet, attributed to the gallery. Do not transfer the area to the four spaces without support, turn the bound into an exact area, or rename spaces as rooms without support. This is a wording revision, not verification of the gallery's actual features.
+Condition: the passage describes the gallery's role and physical features, and the longer verbs add no distinct responsibility or assessment. Keep the four distinct spaces and the gallery's area of over 3,000 square feet. Do not assign that area to the four spaces without evidence, turn the lower bound into an exact area, or call the spaces rooms without support.
 
 ## Repeated uncertainty
 
@@ -56,7 +56,7 @@ English equivalent:
 
 > The objective of structural optimization is not simply to reduce peak field strength, but to balance constraints on insulation performance, mechanical load capacity, and structural dimensions.
 
-Condition: the supplied argument establishes this objective and these constraints. The contrast distinguishes a single objective from a constrained balance; it does not attribute the simpler objective to an invented opponent. Do not delete the distinction merely because the sentence uses a negative-positive structure. Do not add a claim that reducing field strength necessarily harms the other properties unless the material supports that relationship.
+Condition: the supplied argument establishes the objective and constraints. The sentence distinguishes a single objective from balancing several constraints, without assigning the simpler objective to an invented opponent. Keep that distinction even though the sentence uses a negative-positive structure. Do not claim that reducing field strength necessarily harms the other properties unless the material supports that relationship.
 
 ## Scope qualifications
 
@@ -80,7 +80,7 @@ Possible revision when the bold has no reading function:
 
 > 它融合了 OKR（目标和关键结果）、KPI（关键绩效指标）和视觉战略工具，如商业模式画布（BMC）和平衡计分卡（BSC）。
 
-Condition: remove only the decorative emphasis. Preserve the terms, expansions, and relationships. Definitions needed by the audience must not disappear along with the bold. In a glossary or navigation aid, emphasis may have a reading function and can be retained. The same conditions apply to English acronym expansions.
+Condition: remove only decorative emphasis. Keep the terms, their full forms, and their relationships. Do not remove definitions the audience needs along with the bold. In a glossary or navigation aid, bold may help readers find information and can be retained. The same conditions apply to English acronym expansions.
 
 ## Unasked-for defenses
 
@@ -100,11 +100,11 @@ The following input reproduces the punctuation being examined exactly:
 
 > The new policy — announced without warning — affects thousands of workers.
 
-Possible revision when commas suit the target style and reading function:
+Possible revision when commas suit the target style and make the sentence easy to follow:
 
 > The new policy, announced without warning, affects thousands of workers.
 
-Condition: the English input may also be retained when its informative aside and punctuation suit the intended genre or publication. The comma version is an alternative, not a universally required correction. Preserve the announcement qualification and the quantity in either version; neither punctuation choice verifies the policy claim. Repeated dramatic interruptions without a reading function call for revision. Chinese prose follows the sentence-dash prohibition; an English clause in mixed-language material follows English rules. Required exact reproductions remain protected.
+Condition: keep the English input when its aside and punctuation suit the intended genre or publication. The comma version is another valid option. Either version must retain how the announcement was made and the quantity; punctuation does not verify the policy claim. Revise repeated dramatic asides that do not help readers follow the information. Chinese prose prohibits sentence dashes; an English clause in mixed-language text follows English rules. Required exact reproductions remain protected.
 
 ## Functional quotation marks
 
@@ -140,7 +140,7 @@ Input:
 
 > 公司的未来看起来光明。激动人心的时代即将到来，他们继续追求卓越的旅程。这代表了向正确方向迈出的重要一步。
 
-Handling: the passage does not supply a concrete plan, date, location, or quantity. There is no supported factual replacement available from this excerpt. Do not invent expansion plans or business results to make the paragraph specific. In review, identify the missing basis. In polishing, respect the author's supplied stance and the content-change boundary; a broader rewrite requires relevant material and authorization.
+Handling: the passage gives no concrete plan, date, location, or quantity. There is not enough information to write a factual replacement. Do not invent expansion plans or business results to make the paragraph specific. In review, identify what is missing. In polishing, preserve the author's stated position and stay within the authorized changes. A broader rewrite requires relevant material and permission.
 
 The same condition applies to the English phrase The company's future looks bright: it does not establish a specific plan or result. A concrete replacement becomes available only when the task supplies that information.
 
@@ -164,7 +164,7 @@ Mechanical restatement:
 x = x + 1  # Increment x
 ```
 
-When the increment is documented as a border correction, a reason-bearing comment can be useful:
+When the algorithm or documentation establishes that the increment corrects a border, a comment explaining that reason can be useful:
 
 ```python
 x = x + 1  # Compensate for border

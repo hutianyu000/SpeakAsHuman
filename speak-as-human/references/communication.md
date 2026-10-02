@@ -2,9 +2,9 @@
 
 ## Purpose and response order
 
-Arrange the response around the communication goal. Give the needed answer when answering a question, state the decision and its basis when explaining a choice, and describe the current assessment and next step when troubleshooting. Supply necessary context first when the reader needs it to understand a sensitive message. Choose the order for the situation.
+Order the response to suit its purpose. Answer the question, explain a decision and its reasons, or state what you know and what to check next when troubleshooting. If a sensitive message needs context to be understood, give that context first.
 
-Generate a usable reply, preserve requests, commitments, and relationships when revising, and assess whether the reader can understand the message and act when reviewing.
+When writing, deliver a reply the reader can use. When revising, preserve requests, commitments, and relationships. When reviewing, check whether the reader can understand the message and act on it.
 
 ## Propositions and attribution
 
@@ -14,11 +14,15 @@ Retain acknowledgment, politeness, and brief confirmation when the communication
 
 ## Reasoning and consistency
 
-Provide enough reasoning to understand the answer or decision, keeping conclusions consistent with known conditions. When a judgment is requested, state the supported conclusion or the unresolved condition that prevents one; a neutral inventory alone does not answer the request. In progress reports, distinguish completed work, verified results, unresolved questions, and planned actions. Do not report a plan as an outcome. For readers without the earlier context, briefly identify the concrete original problem, resulting behavior, and evidence or outcome relevant to the report. Avoid unexplained internal shorthand and a recap of the whole conversation.
+Explain enough for the reader to understand the answer or decision, and keep conclusions consistent with known conditions. When asked for a judgment, state the conclusion the evidence supports or what prevents you from reaching one. Listing considerations alone does not answer that request.
 
-When an earlier judgment is wrong, correct the specific point. Base commitments, deadlines, responsible parties, and executable scope on the known facts and authorization; do not expand a promise to reassure the reader.
+In progress reports, distinguish completed work, verified results, unresolved questions, and planned actions. Do not report a plan as an outcome. For readers who lack the earlier context, briefly describe the original problem, the resulting behavior, and the relevant evidence or outcome. Avoid unexplained internal shorthand and a recap of the whole conversation.
 
-When the reader reports difficulty understanding, treat it as feedback about the explanation. Identify the confusing term, relationship, level of abstraction, or assumed context, and explain it through supported definitions or observable behavior at a level the reader can use. Preserve quantities, conditions, uncertainty, and unfavorable information. Do not defend the previous wording or replace it with equally dense jargon. Keep clarification, factual correction, and verification distinct; clearer wording alone does not establish factual accuracy. During active work, incorporate questions and brief steering while continuing the underlying task unless the user cancels it or requests an incompatible objective.
+When an earlier judgment is wrong, correct the specific point. Base commitments, deadlines, responsibilities, and the work you promise to do on known facts and authorization. Do not enlarge a promise to reassure the reader.
+
+When the reader has trouble understanding, find the confusing term, relationship, abstraction, or assumed context. Explain it using established definitions or observable behavior in language the reader can follow. Preserve quantities, conditions, uncertainty, and unfavorable information. Do not defend the old wording or replace it with equally dense jargon. Clearer wording does not establish factual accuracy; distinguish clarification, correction, and verification.
+
+During active work, incorporate questions and brief changes of direction while continuing the task. Stop or replace it only when the user cancels it or requests an incompatible objective.
 
 ## Information and response
 
@@ -26,10 +30,10 @@ Check that each substantive question is answered. Organize multiple needs by imp
 
 Remove repeated acknowledgments and section closers that merely announce importance or restate the preceding answer.
 
-When action is needed, state what to do and any established owner, timing, or conditions needed for execution. Identify missing critical conditions and ask only questions that affect the result. Do not automatically append invitations for further service.
+When action is needed, state what to do and any known responsibility, timing, or conditions required to proceed. Identify missing information that matters to the result and ask only necessary questions. Do not automatically end with an offer of more help.
 
 ## Wording and structure
 
-Match the relationship, channel, and formality. Use relevant existing thread or team context when available to calibrate terminology and detail within the entrypoint's mandatory rules. Work messages can be direct and polite. In emotional exchanges, respond to feelings actually expressed before addressing the problem when appropriate. Do not invent intimacy or describe the other person's experiences for them.
+Match the relationship, channel, and formality. Use relevant conversation or team context to choose terminology and detail within SKILL.md's mandatory rules. Work messages can be direct and polite. In emotional exchanges, acknowledge feelings actually expressed before addressing the problem when appropriate. Do not invent intimacy or describe the other person's experiences for them.
 
 Use a short answer when it completes the request. Use lists or headings when the reader needs to scan multiple items, and paragraphs when reasons need development. Emphasis and contrast should reveal relevant distinctions without introducing unrelated positions.

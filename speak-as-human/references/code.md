@@ -4,7 +4,7 @@
 
 Choose names from actual responsibility, behavior, scope, and lifecycle. Establish meaning from relevant implementation, callers, or existing documentation. When behavior is uncertain, retain that uncertainty instead of renaming from word appearance alone.
 
-Natural engineering expression is accurate, familiar, and easy to understand. Expression improvements do not replace implementation fixes. If a name or comment conflicts with behavior, state the evidence and determine which part may be changed within the user's authorization.
+Use engineering terms accurately and in ways maintainers will recognize. Improving wording does not fix implementation defects. If a name or comment conflicts with behavior, explain the evidence and determine what the user has authorized you to change.
 
 ## Choosing names
 
@@ -14,15 +14,15 @@ Do not transcribe the current request, concatenate a list of requested activitie
 
 Keep terminology consistent for the same concept across code, tests, comments, and documentation within the relevant module or domain boundary. Use abbreviations according to domain and project conventions. Prefer existing project terms when their meaning fits; avoid new synonyms merely for novelty or informality. Do not assume the same term has the same meaning in unrelated domains.
 
-Check for one term carrying conflicting meanings or several terms naming the same concept within the relevant domain, while respecting deliberately separate contexts. Resolve meaning from existing definitions, implementation, and direct uses before choosing a name. Reuse an existing glossary when available. If the concept boundary remains unclear, identify that ambiguity rather than hide it through synonym replacement. This check does not authorize creating a glossary, expanding the task, or renaming unrelated objects.
+Check whether a term has conflicting meanings or several terms name the same concept within the relevant domain. Respect meanings that are deliberately kept separate in different contexts. Use existing definitions, implementation, and direct uses to establish meaning before choosing a name. Consult an existing glossary when available. If the distinction between concepts remains unclear, report the ambiguity. Changing synonyms will not resolve it. This check does not authorize creating a glossary, expanding the task, or renaming unrelated objects.
 
-Match the name to the object's abstraction level. Name domain operations by their domain purpose, and technical mechanisms by their actual technical responsibility. Do not let a caller's incidental workflow, storage representation, framework vocabulary, or lower-level implementation details replace the concept owned by the object. Retain a detail when it is part of the object's public meaning or contract.
+Match the name to the object's abstraction level. Name domain operations for their domain purpose and technical mechanisms for their technical responsibility. Do not replace the concept the object represents with a caller's incidental workflow, storage format, framework terminology, or lower-level implementation details. Include a detail when it is part of the object's public meaning or contract.
 
-Let the need to remove ambiguity determine name length. Retain qualifiers only when they distinguish a lasting semantic constraint, scope, unit, lifecycle state, or contract. Preserve necessary distinctions even in long names. Do not replace a contextual name with a vague umbrella term just to shorten it, or invent a broader abstraction than the implementation supports.
+Make names long enough to remove ambiguity. Keep qualifiers only when they distinguish a lasting constraint, scope, unit, lifecycle state, or contract. Preserve necessary distinctions even when the name is long. Do not shorten a specific name into a vague general term or imply an abstraction the implementation does not support.
 
 Before accepting a name, check whether it still fits when inputs, callers, or usage circumstances change within the same contract. Check whether it identifies the object rather than narrating the work that produced it. Names that depend on the current task must be reconsidered. This requirement applies to new and in-scope revised names; it does not authorize unrelated renaming.
 
-Check the name alongside its direct uses, related tests, and existing terminology. A reader should recover its purpose without reconstructing the original request or relying on a compensating comment. If no honest cohesive name fits because responsibilities are mixed, report that design issue; do not hide it with a broader label or perform an unrequested architectural refactor.
+Check the name alongside its direct uses, related tests, and existing terminology. A maintainer should understand its purpose without knowing the original request or needing a comment to explain a misleading name. If mixed responsibilities prevent an accurate name, report the design issue. Do not hide it under a broad label or perform an unrequested architectural refactor.
 
 Follow programming-language syntax, tool restrictions, and project conventions for identifier capitalization, word separation, and type naming. Filenames should express purpose and respect directory and tooling conventions. Choose languages for identifiers, filenames, and reader-facing explanations separately; use the entrypoint's routing to select references.
 
@@ -40,7 +40,7 @@ Comments should add information not clearly expressed by the code, such as desig
 
 Describe the maintained behavior and reason, not the conversation, editing steps, or completion status that led to the code. Retain historical context only when it explains a current constraint or compatibility obligation. Natural-language comments and technical explanations follow the entrypoint's mandatory prose rules; preserve syntax-bearing fragments within them.
 
-Keep comments consistent with implementation. Describe actual guarantees and conditions without speculative claims of universal behavior, safety, or performance. Preserve necessary reasons, limits, and boundaries when editing; mark unconfirmed explanations as uncertain or requiring verification.
+Keep comments consistent with the implementation. Describe actual guarantees and conditions. Do not speculate about universal behavior, safety, or performance. Preserve necessary reasons and limits when editing, and mark unconfirmed explanations as uncertain or needing verification.
 
 ## Technical explanations
 
